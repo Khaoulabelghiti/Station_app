@@ -1,14 +1,8 @@
---find-links https://download.pytorch.org/whl/torch_stable.html
-torch==1.7.1+cpu
-torchvision==0.8.2+cpu
-pandas==1.3.0
-opencv-python==4.5.1.48
-streamlit==0.84.0
-numpy==1.21.0
+torch==1.9.0
+pandas==1.2.4
 plotly==5.1.0
+numpy==1.19.5
 av==8.0.3
+streamlit==0.84.0
 Pillow==8.3.1
-streamlit_webrtc==0.23.10
-tqdm==4.56.0
-PyYAML==5.3.1
-seaborn==0.11.1
+streamlit_webrtc==0.24.0
