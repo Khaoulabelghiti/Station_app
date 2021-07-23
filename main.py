@@ -1,7 +1,15 @@
 import streamlit as st
-
 from fonctions import *
 import socket
+
+
+image=im.open('fav.ico')
+st.set_page_config(page_title='Station',page_icon=image,  layout = 'wide', initial_sidebar_state = 'auto')
+
+
+
+
+
 
 hide_streamlit_style = """
 <style>
